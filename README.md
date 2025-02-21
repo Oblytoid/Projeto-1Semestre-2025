@@ -2,7 +2,7 @@
 
 # Comandos Git
 
-<p>git clone https://github.com/Oblytoid/Projeto-1Semestre-2025</p>
+git clone https://github.com/Oblytoid/Projeto-1Semestre-2025
 
 git config --global user.name 
 git config --global user.email
