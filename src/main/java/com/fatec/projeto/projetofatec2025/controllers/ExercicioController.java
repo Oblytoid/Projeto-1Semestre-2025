@@ -1,4 +1,4 @@
-package com.fatec.projeto.projetofatec2025.controller;
+package com.fatec.projeto.projetofatec2025.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,11 +18,16 @@ public class ExercicioController {
         return true;
     }
 
+    @GetMapping("")
+    public String HelloWorld(){
+        return "<h1"+" style ="+"color:red"+">Hello, World</h1>";
+    }
+
     @GetMapping("/nome={nome}")
     public String HelloWorld(@PathVariable String nome){
         return "<h1"+" style ="+"color:red"+">Hello, World?</h1><h2>"+nome+"</h2>";
     }
-
+    
     @GetMapping("/age={age}")
     public String getMethodName(@PathVariable String age) {
         int currentAge = Integer.parseInt(age);
