@@ -1,4 +1,4 @@
-package com.fatec.projeto.projetofatec2025.controllers;
+package com.fatec.projeto.fatec2025.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

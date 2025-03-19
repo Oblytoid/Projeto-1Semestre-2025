@@ -1,4 +1,4 @@
-package com.fatec.projeto.projetofatec2025.entities;
+package com.fatec.projeto.fatec2025.entities;
 
 public class Cliente {
 

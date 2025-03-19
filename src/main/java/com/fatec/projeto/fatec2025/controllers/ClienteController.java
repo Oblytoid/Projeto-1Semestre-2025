@@ -1,8 +1,8 @@
-package com.fatec.projeto.projetofatec2025.controllers;
+package com.fatec.projeto.fatec2025.controllers;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fatec.projeto.projetofatec2025.entities.Cliente;
+import com.fatec.projeto.fatec2025.entities.Cliente;
 
 import java.util.ArrayList;
 import java.util.List;

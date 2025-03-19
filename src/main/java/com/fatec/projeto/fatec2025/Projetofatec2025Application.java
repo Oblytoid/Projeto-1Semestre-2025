@@ -1,4 +1,4 @@
-package com.fatec.projeto.projetofatec2025;
+package com.fatec.projeto.fatec2025;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
