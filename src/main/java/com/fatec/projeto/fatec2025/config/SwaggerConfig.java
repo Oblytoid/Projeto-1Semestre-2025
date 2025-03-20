@@ -9,6 +9,7 @@ import io.swagger.v3.oas.models.info.Info;
 @Configuration
 public class SwaggerConfig {
     
+    //http://127.0.0.1:8080/swagger-ui/index.html
     @Bean
     public OpenAPI customOpenAPI(){
         return new OpenAPI()
