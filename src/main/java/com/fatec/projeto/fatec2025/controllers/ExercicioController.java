@@ -35,7 +35,6 @@ public class ExercicioController {
         if(currentAge > 120){
             return "<iframe src=\"https://gifer.com/embed/Af6V\" width=480 height=433.116 frameBorder=\"0\" allowFullScreen></iframe>"+
             "<style> iframe{ display:flex; margin: 0 auto; border: 10px solid yellow}</style>";
-            
         }
         if(currentAge > 60){
             return "Idoso";
